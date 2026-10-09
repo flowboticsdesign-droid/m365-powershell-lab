@@ -1,0 +1,9 @@
+# Script outputs: may contain user names, temporary passwords or tenant data
+scripts/logs/*
+!scripts/logs/.gitkeep
+*.log
+# Never commit secrets or exported tenant data
+*.pfx
+*.cer
+secrets*
+.env
