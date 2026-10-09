@@ -17,9 +17,9 @@ data is used.
 
 | # | Topic | Script / work | Status |
 |---|---|---|---|
-| 0 | Tenant, PowerShell 7, Graph connection | [`00-Setup.ps1`](scripts/00-Setup.ps1) | ⬜ To do |
-| 1 | Onboarding from an HR CSV, group-based licensing | [`01-New-LabUsers.ps1`](scripts/01-New-LabUsers.ps1) | ⬜ To do |
-| 2 | Offboarding: block, revoke, shared mailbox, clean-up, log | [`02-Remove-LabUser.ps1`](scripts/02-Remove-LabUser.ps1) | ⬜ To do |
+| 0 | Tenant, PowerShell 7, Graph connection | [`00-Setup.ps1`](scripts/00-Setup.ps1) | ✅ Done |
+| 1 | Onboarding from an HR CSV, group-based licensing | [`01-New-LabUsers.ps1`](scripts/01-New-LabUsers.ps1) | ✅ Done |
+| 2 | Offboarding: block, revoke, shared mailbox, clean-up, log | [`02-Remove-LabUser.ps1`](scripts/02-Remove-LabUser.ps1) | ✅ Done |
 | 3 | Identity audit: inactive accounts, MFA, licences → Power BI | [`03-Get-IdentityAuditReport.ps1`](scripts/03-Get-IdentityAuditReport.ps1) | ⬜ To do |
 | 4 | Intune: enrolment, compliance policy, configuration profile, app | [Lab setup](docs/lab-setup.md#intune-portal-steps) | ⬜ To do |
 | 5 | Intune non-compliance report by email | [`04-Get-NonCompliantDevices.ps1`](scripts/04-Get-NonCompliantDevices.ps1) | ⬜ To do |
